@@ -1,14 +1,14 @@
 coSimpleTemplate
 ==============
 
-**ComponentName** is a simple-to-use PHP component that provides ...?
+**coSimpleTemplate** is a simple-to-use PHP Template manager.
 
 System-Wide Installation
 ------------------------
 
 ComponentName should be installed using the [PEAR Installer](http://pear.php.net). This installer is the PHP community's de-facto standard for installing PHP components.
 
-    sudo pear channel-discover <your pear channel>
+    sudo pear channel-discover compermisos.github.com/pear
     sudo pear install --alldeps <your channel>/ComponentName
 
 As A Dependency On Your Component
@@ -20,10 +20,10 @@ If you are creating a component that relies on ComponentName, please make sure t
 <dependencies>
   <required>
     <package>
-      <name>ComponentName</name>
-      <channel><!-- your PEAR channel --></channel>
-      <min><!-- your component's min version, e.g. 1.0.0 --></min>
-      <max><!-- your component's max version that guarantees backwards compatibility, e.g. 1.999.9999 --></max>
+      <name>coSimpleTemplate</name>
+      <channel>compermisos.github.com/pear</channel>
+      <min>0.1.0</min>
+      <max>1.99.999</max>
     </package>
   </required>
 </dependencies>
@@ -47,8 +47,8 @@ If you want to patch or enhance this component, you will need to create a suitab
 
 You can then clone the git repository:
 
-    # ComponentName
-    git clone <your Git repo's URL>
+    # coSimpleTemplate
+    git clone git@github.com:compermisos/coSimpleTemplate.git
 
 Then, install a local copy of this component's dependencies to complete the development environment:
 
