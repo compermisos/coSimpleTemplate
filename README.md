@@ -1,6 +1,4 @@
-(This template is based on the README.md file used by Phix and its own components. Edit / replace to suit).
-
-ComponentName
+coSimpleTemplate
 ==============
 
 **ComponentName** is a simple-to-use PHP component that provides ...?
