@@ -11,6 +11,6 @@ matrix:
 before_script:
   - pear channel-discover pear.phix-project.org
   - pear -D auto_discover=1 install -Ba phix/phix4componentdev
-  - phing build-vendor
+  - /usr/bin/phing build-vendor
 
-script: phing code-review 
+script: /usr/bin/phing code-review 
