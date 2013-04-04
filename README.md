@@ -3,6 +3,10 @@ coSimpleTemplate
 
 **coSimpleTemplate** is a simple-to-use PHP Template manager.
 
+build Status
+------------
+[![Build Status](https://travis-ci.org/compermisos/coSimpleTemplate.png)](https://travis-ci.org/compermisos/coSimpleTemplate)
+
 System-Wide Installation
 ------------------------
 
